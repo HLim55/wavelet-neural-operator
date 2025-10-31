@@ -9,7 +9,7 @@ Scrutinize every DeepONet associated with wavelet systems!
 	- Inverse problem: PDE의 해나 관측 데이터가 주어졌을 때 그로부터 물리적 파라미터 $p$를 추정하는 문제 $\rightarrow$ $p$도 미지수
 - Forward Problem Results (see `Section 3.1`):
 
-	-`Theorem 3.2`: 미분 방정식이 smooth analytic solution $u_p$ 가 있을 때, loss를 임의로 작게 만드는 DNN의 파라미터가 존재한다.
+	- `Theorem 3.2`: 미분 방정식이 smooth analytic solution $u_p$ 가 있을 때, loss를 임의로 작게 만드는 DNN의 파라미터가 존재한다.
 	- `Theorem 3.3`: loss를 최소화하는 DNN의 파라미터로부터 만들어지는 $u_j$가 결과적으로 analytic solution $u_p$로 수렴하게 된다 (실제로는 analytic solution을 직접 알기 어렵기 때문에 유의미한 결과!).
 - Inverse Problem Results (see `Section 3.2`)
 	- `Theorem 3.4`
