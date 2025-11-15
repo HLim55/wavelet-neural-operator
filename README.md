@@ -1,5 +1,5 @@
-# wavelet-deepONet
-Scrutinize every DeepONet associated with wavelet systems!
+# wavelet-neural-operator
+Scrutinize every neural operator associated with wavelet systems!
 
 # Physics Informed Neural Networks
 
