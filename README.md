@@ -26,16 +26,17 @@ Scrutinize every DeepONet associated with wavelet systems!
 
 - Neural operator계의 뉴클래식, 뉴 Cybenko, Hornik 결과
 - Neural operator에서의 UAT를 주기 위해서의 최소한의 nonlocality와 nonlinearity를 규명함
-	- Nonlocality: operator는 입력함수의 값이 전역에 영향을 주기 때문에 nonlocality를 필수적으로 가져야 함
+	- **Nonlocality**: operator는 입력함수의 값이 전역에 영향을 주기 때문에 nonlocality를 필수적으로 가져야 함
 	
 	$\Rightarrow$ integral (averaging)로 나타냄, 이 논문에서는 averaging 하나 정도면 UAT에는 충분하다를 보임
-	- Nonlinearity: 이건 뭐 말모...
+	- **Nonlinearity**: 이건 뭐 말모...
 	
 	$\Rightarrow$ Channel수로 조절, 이 논문에서는 lifting operator의 채널수로 제시를 하고 shallow로도 UAT보이기엔 충분하다고 주장
 - Experiments 
 	- parameter수 (channel수 * mode수)가 늘수록 error가 낮아짐 (당연)
 	- 하지만 최적의 mode수는 문제마다 다름. 아직은 뭔가가 필요함 ([29] 논문에서는 mode는 고정하고 채널 수(nonlinearity)가 중요하다고 했던 것 같은데 꼭 그런것만은 아닐지도?)
 - See [this](https://chatgpt.com/share/69181e5b-569c-8011-a2b4-799af9cc19ab).
+- 이 논문이 시사하는 바는 `operator learning의 UAT를 위해 생각보다 강한 nonlocality를 써야하는 건 아니다`. 하지만 그게 최적이라는 건 아님. 아직 갈길은 멈. UAT가 늘 그렇긴 하지. 그럼에도 적어도 nonlocality를 끼긴 껴야함. 요정도 일듯.
 	
 ## [2023ICLR]Lanthaler_Nonlinear_reconstruction_for_operator_learning_of_PDEs_with_discontinuities
 
